@@ -1,0 +1,26 @@
+Binding: create_training
+Title: KIND Training Project Template
+OpenFiles: README.md
+
+Parameter: type
+Widget: SelectInput
+Label: Choose the training type
+Fields: Rmarkdown, Quarto, Reveal.js slides
+Default: Quarto
+Position: left
+
+Parameter: title
+Widget: TextInput
+Label: Course title (human readable!)
+Position: left
+
+Parameter: number
+Widget: TextInput
+Label: Number of sessions
+Position: left
+
+Parameter: createGitignore
+Widget: CheckboxInput
+Label: Create .gitignore
+Default: On
+Position: right
